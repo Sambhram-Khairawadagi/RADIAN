@@ -13,7 +13,7 @@ export function Specifications() {
     ["Project status", project.status],
     [
       "RERA registration",
-      project.reraNumber || "Registration number pending confirmation",
+      project.reraNumber || "RERA registered · number pending confirmation",
     ],
     ["Elevators", "Total elevator count pending confirmation"],
   ];
@@ -21,6 +21,7 @@ export function Specifications() {
     <section id="specifications" className="section specifications">
       <div className="spec-heading" data-reveal>
         <p className="eyebrow">04 / THE DETAILS</p>
+        <div className="rera-badge rera-badge-light">RERA REGISTERED</div>
         <h2>
           Considered.
           <br />

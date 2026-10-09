@@ -63,7 +63,7 @@ export function FrameSequenceCanvas({
           },
           (context) => {
             const { mobile, reduced, short } = context.conditions!;
-            if (reduced || short || typeof createImageBitmap === "undefined")
+            if (reduced || typeof createImageBitmap === "undefined")
               return;
             const variant = mobile ? sequence.mobile : sequence.desktop;
             if (!variant) return;
@@ -144,12 +144,14 @@ export function FrameSequenceCanvas({
             observer.observe(canvas);
             resize();
             cache.request(0);
+            const media = section.querySelector<HTMLElement>(".hero-media")!;
             const trigger = ScrollTrigger.create({
-              trigger: section,
-              start: "top top",
+              trigger: mobile ? media : section,
+              start: mobile ? "top 82px" : "top top",
               end: () =>
                 `+=${(window.innerHeight * (mobile ? project.sequence.mobileScrollVh : project.sequence.desktopScrollVh)) / 100}`,
-              pin: true,
+              pin: mobile ? media : !short,
+              pinSpacing: true,
               anticipatePin: 1,
               invalidateOnRefresh: true,
               onUpdate: (self) => {

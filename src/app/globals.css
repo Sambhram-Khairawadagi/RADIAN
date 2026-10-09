@@ -418,11 +418,6 @@ figure figcaption {
 .sequence-ready .sequence-canvas {
   opacity: 1;
 }
-@media (max-height: 759px) {
-  .sequence-canvas {
-    display: none;
-  }
-}
 .hero-image-caption {
   position: absolute;
   bottom: 0;
@@ -1938,3 +1933,34 @@ address {
   }
 }
 @media (max-width: 380px) { .footer-top { grid-template-columns: 1fr; } .footer-top > div:first-child { grid-column: auto; } }
+
+/* Keep the building playing on short phones: pin the image, not tall copy. */
+.rera-badge {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  padding: 8px 12px;
+  margin-bottom: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  background: #c6a46a12;
+}
+.rera-badge-light { color: #705022; background: #c6a46a18; }
+.hero-copy .eyebrow { margin-bottom: 14px; }
+.hero-investment-note {
+  max-width: 340px;
+  color: #b3bcc4;
+  font-size: 11px;
+  line-height: 1.65;
+  margin: -16px 0 22px;
+}
+@media (max-width: 760px) {
+  .hero { height: auto; min-height: 0; overflow: visible; }
+  .hero-layout { flex: none; }
+  .hero-media { background: var(--charcoal); }
+  .hero-bottom { margin-top: 12px; }
+  .hero-investment-note { margin: -7px 0 18px; max-width: 100%; }
+  .hero-copy .rera-badge { margin-bottom: 18px; }
+}

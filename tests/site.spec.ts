@@ -240,11 +240,11 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 667 
     await expect.poll(() => page.locator('#contact').evaluate(el => Math.round(el.getBoundingClientRect().top))).toBe(offset);
     await page.getByRole('link', { name: 'Back to top', exact: true }).click();
     await expect.poll(() => page.evaluate(() => scrollY)).toBe(0);
-    if (viewport.height >= 760) {
+    if (viewport.height >= 760 || viewport.width <= 760) {
       await expect(page.getByTestId('sequence-canvas')).toHaveAttribute('data-frame', '0');
     } else {
       await expect(page.locator('.pin-spacer')).toHaveCount(0);
-      await expect(page.getByTestId('sequence-canvas')).toBeHidden();
+      await expect(page.getByTestId('sequence-canvas')).toBeVisible();
       await page.locator('.hero-bottom').scrollIntoViewIfNeeded();
       await expect(page.locator('.hero-bottom')).toBeInViewport();
     }
@@ -257,7 +257,7 @@ test('rotating a phone releases the pin and restores animation in portrait', asy
   await expect(page.getByTestId('sequence-canvas')).toHaveAttribute('data-frame', '0');
   await page.setViewportSize({ width: 844, height: 390 });
   await expect(page.locator('.pin-spacer')).toHaveCount(0);
-  await expect(page.getByTestId('sequence-canvas')).toBeHidden();
+  await expect(page.getByTestId('sequence-canvas')).toBeVisible();
   await expect(page.locator('.hero-poster')).toBeVisible();
   await page.setViewportSize({ width: 390, height: 844 });
   await expect(page.locator('.pin-spacer')).toHaveCount(1);
@@ -288,7 +288,7 @@ test("mobile sequence uses smaller frames and reverses", async ({ page }) => {
   const canvas = page.getByTestId("sequence-canvas");
   await expect(canvas).toHaveAttribute("data-frame", "0");
   await page.evaluate(() =>
-    window.scrollTo({ top: 1200, behavior: "instant" }),
+    window.scrollTo({ top: 1700, behavior: "instant" }),
   );
   await expect
     .poll(async () => Number(await canvas.getAttribute("data-frame")))

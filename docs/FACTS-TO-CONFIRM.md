@@ -31,3 +31,7 @@ This is a point-in-time source check, not independent regulatory/site verificati
 | Privacy | Describes implementation | Final consent, retention and deletion procedure |
 
 No certifications, possession dates, rental yields, guaranteed returns, ratings or reviews are invented. Update typed facts in `src/config/project.ts` when approved.
+
+## User-approved marketing copy — 9 October 2026
+
+The user requested a prominent RERA REGISTERED label (owner-reported; registration number remains pending) and an investment message of ₹3 crore with rental potential up to ₹2.4 lakh **per month**, with the monthly interval explicitly confirmed. This is displayed as an indicative owner-provided projection subject to leasing and final terms, not guaranteed rental income or independently verified financial performance.

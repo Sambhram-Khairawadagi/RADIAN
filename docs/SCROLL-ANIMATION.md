@@ -39,3 +39,7 @@ Prepared sequences are included, so they still work when local FFmpeg is unavail
 The home fragment is a stable anchor before the pinned element. Initial section fragments are aligned after fonts and pin layout settle; wheel, touch, pointer or keyboard interaction cancels this one-time alignment so it does not override visitor navigation.
 
 Browser checks assert forward/reverse indices, rest stability, cache caps, mobile requests, missing-frame resilience, reduced motion, direct section links, return-to-top positioning and viewport rotation. Physical phone/network testing remains a launch task.
+
+## Current mobile behavior — 9 October 2026
+
+Supersedes the earlier short-screen static fallback: mobile widths up to 760 px pin the building image starting below the fixed header, with explicit pin spacing and a naturally flowing hero. Short desktop/tablet landscape heights play without pinning the tall hero. Reduced-motion preferences still disable animation. Five touch-emulation cases verify playback/reverse and section separation from 320 px phones through 1024 px tablets.

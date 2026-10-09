@@ -82,7 +82,7 @@
       },
       {
         "name": "footer",
-        "height": 428.28125,
+        "height": 585,
         "overflow": false,
         "badImages": [],
         "escaped": []
@@ -173,7 +173,7 @@
       },
       {
         "name": "footer",
-        "height": 470.0625,
+        "height": 626.78125,
         "overflow": false,
         "badImages": [],
         "escaped": []
@@ -193,7 +193,7 @@
     "sections": [
       {
         "name": "hero",
-        "height": 900,
+        "height": 835.078125,
         "overflow": false,
         "badImages": [],
         "escaped": []
@@ -221,7 +221,7 @@
       },
       {
         "name": "specifications",
-        "height": 1227.59375,
+        "height": 1284.84375,
         "overflow": false,
         "badImages": [],
         "escaped": []
@@ -263,7 +263,7 @@
       },
       {
         "name": "footer",
-        "height": 675.734375,
+        "height": 902.828125,
         "overflow": false,
         "badImages": [],
         "escaped": []
@@ -282,7 +282,7 @@
     "sections": [
       {
         "name": "hero",
-        "height": 900,
+        "height": 812.578125,
         "overflow": false,
         "badImages": [],
         "escaped": []
@@ -310,7 +310,7 @@
       },
       {
         "name": "specifications",
-        "height": 1267.34375,
+        "height": 1324.59375,
         "overflow": false,
         "badImages": [],
         "escaped": []
@@ -352,7 +352,7 @@
       },
       {
         "name": "footer",
-        "height": 817.875,
+        "height": 1044.96875,
         "overflow": false,
         "badImages": [],
         "escaped": []
@@ -441,7 +441,7 @@
       },
       {
         "name": "footer",
-        "height": 470.0625,
+        "height": 626.78125,
         "overflow": false,
         "badImages": [],
         "escaped": []

@@ -27,6 +27,7 @@ export function HeroScrollExperience() {
       <div className="hero-layout">
         <div className="hero-copy">
           <p className="eyebrow">RADIAN BY V VENTUREZ</p>
+          <div className="rera-badge">RERA REGISTERED</div>
           <h1 id="hero-title">
             A Landmark
             <br />
@@ -35,8 +36,9 @@ export function HeroScrollExperience() {
             <em>Extraordinary.</em>
           </h1>
           <p className="hero-description">
-            A new perspective on commercial spaces in Bommasandra, Bengaluru.
+            Invest ₹3 crore. Rental potential up to ₹2.4 lakh per month.
           </p>
+          <p className="hero-investment-note">Indicative, owner-provided projection. Subject to leasing and final terms; returns are not guaranteed.</p>
           <a className="button button-light" href="#explore">
             Explore the building <ArrowDown size={16} />
           </a>

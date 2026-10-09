@@ -63,3 +63,12 @@ See `docs/HERO-OPTIMIZATION.md`, `docs/SCROLL-ANIMATION.md` and the saved profil
 - Physical-device, Safari and deployed-network performance remain unverified.
 
 See `docs/DEPLOYMENT.md` and `docs/PRODUCTION-READINESS.md` for the deployment checklist.
+
+## Mobile playback and marketing update — 9 October 2026
+
+- Fixed mobile animation being disabled below 760 px viewport height. Phones now pin only the building image with explicit pin spacing; hero text flows naturally, and the next section stays below the animation.
+- Short landscape viewports play the sequence without pinning a hero taller than the screen. Reduced-motion preferences retain the static poster.
+- Highlighted RERA REGISTERED in the hero and specifications. Registration remains owner-reported; the registration number is still awaited and is not fabricated.
+- Added the user-approved hero message: Invest ₹3 crore. Rental potential up to ₹2.4 lakh per month. The user explicitly confirmed the monthly period. The adjoining note identifies it as an indicative owner-provided projection, subject to leasing and final terms, without guaranteed returns.
+- Checked every section at phone/tablet sizes and added five touch-emulation regression cases (320×568, 375×667, 430×932, 768×1024 and 1024×768) for forward/reverse frames, visible playback, pin spacing, overflow and runtime errors.
+- Preserved 28 units, 1,12,918 sq ft built-up area, Property Basket credit and established visual identity.

@@ -59,3 +59,7 @@ No browser runtime errors or horizontal overflow occurred in these samples. Raw 
 The full dependency audit reports five high-severity development-tool findings in the Next ESLint / fast-glob / micromatch / braces chain. The registry's suggested automated fix would downgrade to an incompatible Next ESLint configuration. No forced downgrade or hidden suppression was applied; monitor the upstream compatible fix. The production dependency audit is clean.
 
 No public site was deployed. Two floor-plan files are still empty, the RERA number and several owner-provided details remain unconfirmed, and lead delivery is unconfigured. Search indexing is disabled by default. See `PRODUCTION-READINESS.md` and `FACTS-TO-CONFIRM.md`.
+
+## Mobile and tablet follow-up — 9 October 2026
+
+Final complete browser suite: **33 passed in 47.4 seconds**. Includes five new touch-emulation cases for phone/tablet forward and reverse animation, image visibility, mobile pin spacing, every-section overflow and runtime errors. The original navigation, floor, form, reduced-motion and accessibility checks also pass. Fresh section audit: 55 checks, no broken images, request failures, runtime errors or horizontal overflow. Production build (including TypeScript) and lint passed. RERA and investment copy were updated as recorded in WORK-LOG.md. Physical devices and Safari remain unverified.
