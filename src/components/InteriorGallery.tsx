@@ -1,3 +1,6 @@
+"use client";
+import { useRef, useState } from "react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Media, Impression } from "./Media";
 import type { AssetKey } from "@/config/assets";
 const interiors: { key: AssetKey; title: string; text: string }[] = [
@@ -18,6 +21,13 @@ const interiors: { key: AssetKey; title: string; text: string }[] = [
   },
 ];
 export function InteriorGallery() {
+  const gallery = useRef<HTMLDivElement>(null);
+  const [active, setActive] = useState(0);
+  const go = (index: number) => {
+    const rail = gallery.current;
+    const card = rail?.children[index] as HTMLElement | undefined;
+    if (rail && card) rail.scrollTo({ left: card.offsetLeft, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+  };
   return (
     <section id="interiors" className="section interiors">
       <div className="section-kicker">
@@ -36,19 +46,28 @@ export function InteriorGallery() {
           your next chapter could begin.
         </p>
       </div>
-      <div className="interior-grid">
+      <div className="gallery-toolbar">
+        <span>SPACES FOR WHAT’S NEXT</span>
+        <div className="gallery-buttons">
+          <span aria-live="polite">0{active + 1} / 03</span>
+          <button type="button" aria-label="Previous interior" disabled={active === 0} onClick={() => go(active - 1)}><ArrowLeft size={18} /></button>
+          <button type="button" aria-label="Next interior" disabled={active === 2} onClick={() => go(active + 1)}><ArrowRight size={18} /></button>
+        </div>
+      </div>
+      <div className="interior-grid" ref={gallery} tabIndex={0} role="region" aria-label="Interior image gallery"
+        onKeyDown={event => { if(event.key === 'ArrowRight' || event.key === 'ArrowLeft') { event.preventDefault(); go(Math.max(0, Math.min(2, active + (event.key === 'ArrowRight' ? 1 : -1)))); } }}
+        onScroll={() => { const rail = gallery.current; if(!rail) return; const cards = Array.from(rail.children) as HTMLElement[]; const closest = cards.reduce((best, card, index) => Math.abs(card.offsetLeft - rail.scrollLeft) < Math.abs(cards[best].offsetLeft - rail.scrollLeft) ? index : best, 0); setActive(closest); }}>
         {interiors.map((item, i) => (
           <figure
             key={item.key}
             className={`interior-card interior-${i}`}
-            data-reveal
           >
             <Media
               name={item.key}
               sizes={
                 i === 0
                   ? "(max-width:760px) 100vw, 90vw"
-                  : "(max-width:760px) 100vw, 45vw"
+                  : "(max-width:760px) 100vw, 75vw"
               }
             />
             <figcaption>

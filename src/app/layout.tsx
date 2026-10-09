@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Manrope } from "next/font/google";
+import { Space_Grotesk, Manrope } from "next/font/google";
 import { project } from "@/config/project";
 import { assets } from "@/config/assets";
 import "./globals.css";
-const display = Cormorant_Garamond({
+import "./modern.css";
+const display = Space_Grotesk({
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  style: ["normal", "italic"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-display",
   display: "swap",
 });

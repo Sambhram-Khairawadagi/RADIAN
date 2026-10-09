@@ -5,8 +5,7 @@
     "errors": [],
     "warnings": [
       "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled",
-      "Image with src \"/media/images/front-bf3d523648.webp\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading",
-      "Image with src \"/media/images/lobby-64583a0a1e.webp\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"
+      "Image with src \"/media/images/front-bf3d523648.webp\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"
     ],
     "failed": [],
     "sections": [
@@ -19,70 +18,70 @@
       },
       {
         "name": "introduction",
-        "height": 1438.125,
+        "height": 1434.171875,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "architecture",
-        "height": 855,
+        "height": 905.96875,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "explorer",
-        "height": 1146.75,
+        "height": 1148.0625,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "specifications",
-        "height": 948.375,
+        "height": 958.75,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "interiors",
-        "height": 1930.859375,
+        "height": 1532.03125,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "amenities",
-        "height": 874.75,
+        "height": 906.9375,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "location",
-        "height": 725.171875,
+        "height": 725.5625,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "developer",
-        "height": 566.3125,
+        "height": 571.8125,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "contact",
-        "height": 769.640625,
+        "height": 994.40625,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "footer",
-        "height": 585,
+        "height": 613.40625,
         "overflow": false,
         "badImages": [],
         "escaped": []
@@ -96,8 +95,7 @@
     "errors": [],
     "warnings": [
       "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled",
-      "Image with src \"/media/images/front-bf3d523648.webp\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading",
-      "Image with src \"/media/images/lobby-64583a0a1e.webp\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"
+      "Image with src \"/media/images/front-bf3d523648.webp\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"
     ],
     "failed": [],
     "sections": [
@@ -110,70 +108,70 @@
       },
       {
         "name": "introduction",
-        "height": 1137.96875,
+        "height": 1068.4375,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "architecture",
-        "height": 715.8125,
+        "height": 733.625,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "explorer",
-        "height": 1041.6875,
+        "height": 1046.0625,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "specifications",
-        "height": 981.25,
+        "height": 955.25,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "interiors",
-        "height": 1409.6875,
+        "height": 1043.296875,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "amenities",
-        "height": 1006.5,
+        "height": 1055.8125,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "location",
-        "height": 663.859375,
+        "height": 633.25,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "developer",
-        "height": 500.0625,
+        "height": 459,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "contact",
-        "height": 786.28125,
+        "height": 1315.28125,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "footer",
-        "height": 626.78125,
+        "height": 614.859375,
         "overflow": false,
         "badImages": [],
         "escaped": []
@@ -193,77 +191,77 @@
     "sections": [
       {
         "name": "hero",
-        "height": 835.078125,
+        "height": 1127.453125,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "introduction",
-        "height": 1140.15625,
+        "height": 1093.4375,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "architecture",
-        "height": 919.3125,
+        "height": 885.1875,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "explorer",
-        "height": 1299.84375,
+        "height": 1453.40625,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "specifications",
-        "height": 1284.84375,
+        "height": 1299.84375,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "interiors",
-        "height": 1699.265625,
+        "height": 891.09375,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "amenities",
-        "height": 1111.421875,
+        "height": 1143.75,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "location",
-        "height": 1085.078125,
+        "height": 1033.15625,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "developer",
-        "height": 674.21875,
+        "height": 655.09375,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "contact",
-        "height": 1147.03125,
+        "height": 1268.3125,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "footer",
-        "height": 902.828125,
+        "height": 963.828125,
         "overflow": false,
         "badImages": [],
         "escaped": []
@@ -282,77 +280,77 @@
     "sections": [
       {
         "name": "hero",
-        "height": 812.578125,
+        "height": 1116.15625,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "introduction",
-        "height": 1117.09375,
+        "height": 1067.875,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "architecture",
-        "height": 923.3125,
+        "height": 886.6875,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "explorer",
-        "height": 1281.09375,
+        "height": 1450.90625,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "specifications",
-        "height": 1324.59375,
+        "height": 1355.78125,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "interiors",
-        "height": 1632.609375,
+        "height": 866.09375,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "amenities",
-        "height": 1134.8125,
+        "height": 1386.078125,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "location",
-        "height": 1085.078125,
+        "height": 1030.65625,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "developer",
-        "height": 674.21875,
+        "height": 652.59375,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "contact",
-        "height": 1362.53125,
+        "height": 1491.203125,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "footer",
-        "height": 1044.96875,
+        "height": 1105.96875,
         "overflow": false,
         "badImages": [],
         "escaped": []
@@ -378,70 +376,70 @@
       },
       {
         "name": "introduction",
-        "height": 1143.203125,
+        "height": 1100.4375,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "architecture",
-        "height": 687.8125,
+        "height": 666.75,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "explorer",
-        "height": 1041.6875,
+        "height": 1023.3125,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "specifications",
-        "height": 962.5625,
+        "height": 936.5625,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "interiors",
-        "height": 1466.453125,
+        "height": 1082.640625,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "amenities",
-        "height": 979.5,
+        "height": 1055.8125,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "location",
-        "height": 663.859375,
+        "height": 614.90625,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "developer",
-        "height": 500.0625,
+        "height": 459,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "contact",
-        "height": 764.03125,
+        "height": 1315.28125,
         "overflow": false,
         "badImages": [],
         "escaped": []
       },
       {
         "name": "footer",
-        "height": 626.78125,
+        "height": 619.421875,
         "overflow": false,
         "badImages": [],
         "escaped": []

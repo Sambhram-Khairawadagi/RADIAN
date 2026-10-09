@@ -24,8 +24,9 @@ npm start
 
 ## Included
 
-- Charcoal/ivory architecture-led page with restrained gold accents and Cormorant Garamond / Manrope through Next.js font optimization.
+- Obsidian/porcelain architecture-led page with brushed-champagne accents, emerald registration indicators, Space Grotesk / Manrope through Next.js font optimization, and a lightweight dimensional RADIAN wordmark.
 - Responsive sticky navigation and keyboard-accessible mobile menu.
+- Floating translucent navigation, a touch/keyboard interior gallery, integrated floor selection and contextual enquiry form, plus a mobile enquiry bar that hides around the hero, form, footer and open navigation.
 - Canvas animation controlled by native scroll and GSAP ScrollTrigger; desktop/mobile variants, reverse scroll, bounded decoding, reduced-motion still image.
 - Overview, architectural story, B/G/1–5 explorer, specifications, three supplied interior visualizations, seven listed amenities, approximate location links, developer section, contact and footer.
 - Floor-specific enquiry selection, React Hook Form + shared Zod validation, inline errors and truthful delivery states.

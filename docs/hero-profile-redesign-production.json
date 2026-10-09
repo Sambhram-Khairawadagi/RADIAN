@@ -1,0 +1,24 @@
+[
+  {
+    "profile": "desktop / local production network with browser caching",
+    "p95RafMs": 16.700000000000728,
+    "p95FrameLag": 2,
+    "wrongDirectionDraws": 0,
+    "longestHoldMs": 17,
+    "maxDecodedFrames": 18,
+    "finalFrame": 0,
+    "canvasPixels": 343476,
+    "frameResponses": 230
+  },
+  {
+    "profile": "phone DPR3 / 4x CPU / local production network with browser caching",
+    "p95RafMs": 16.700000000000728,
+    "p95FrameLag": 1,
+    "wrongDirectionDraws": 0,
+    "longestHoldMs": 67,
+    "maxDecodedFrames": 12,
+    "finalFrame": 0,
+    "canvasPixels": 332325,
+    "frameResponses": 230
+  }
+]

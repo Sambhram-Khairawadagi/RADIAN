@@ -8,7 +8,7 @@ test("desktop renders supplied assets and captures the design", async ({
   await page.setViewportSize({ width: 1440, height: 960 });
   await page.goto("/");
   await expect(page.getByRole("heading", { level: 1 })).toContainText(
-    "Extraordinary",
+    "RADIAN",
   );
   await expect(page.getByTestId("sequence-canvas")).toHaveAttribute(
     "data-frame",

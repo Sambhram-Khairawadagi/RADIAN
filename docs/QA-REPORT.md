@@ -63,3 +63,7 @@ No public site was deployed. Two floor-plan files are still empty, the RERA numb
 ## Mobile and tablet follow-up — 9 October 2026
 
 Final complete browser suite: **33 passed in 47.4 seconds**. Includes five new touch-emulation cases for phone/tablet forward and reverse animation, image visibility, mobile pin spacing, every-section overflow and runtime errors. The original navigation, floor, form, reduced-motion and accessibility checks also pass. Fresh section audit: 55 checks, no broken images, request failures, runtime errors or horizontal overflow. Production build (including TypeScript) and lint passed. RERA and investment copy were updated as recorded in WORK-LOG.md. Physical devices and Safari remain unverified.
+
+## Full visual redesign — 9 October 2026
+
+Superseding validation: **36 tests passed in 51.1 seconds**. New checks cover gallery buttons/keyboard/image loading, selected-floor context and mobile enquiry visibility. Production build, strict TypeScript compilation and lint passed. All 55 section audit checks are clear; offscreen slides inside the intentionally clipped gallery are checked through dedicated gallery tests. Production smoke checks passed at desktop, phone and landscape sizes. See DESIGN-SYSTEM.md for the full design and validation record.

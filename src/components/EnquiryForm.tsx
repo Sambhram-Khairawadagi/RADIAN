@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { useForm } from "react-hook-form";
+import { useForm, useWatch } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { LoaderCircle, Check } from "lucide-react";
 import { enquirySchema, type EnquiryValues } from "@/lib/enquiry-schema";
@@ -11,6 +11,7 @@ export function EnquiryForm({ configured }: { configured: boolean }) {
   );
   const {
     register,
+    control,
     handleSubmit,
     setValue,
     reset,
@@ -28,6 +29,7 @@ export function EnquiryForm({ configured }: { configured: boolean }) {
       startedAt: 0,
     },
   });
+  const interestedFloor = useWatch({ control, name: "floor" });
   useEffect(() => {
     setValue("startedAt", Date.now());
     const handler = (event: Event) => {
@@ -103,6 +105,10 @@ export function EnquiryForm({ configured }: { configured: boolean }) {
         <address>{project.office}</address>
       </div>
       <div className="form-wrap">
+        <div className="enquiry-form-heading">
+          <h3>Let’s find your space.</h3>
+          <p aria-live="polite">{interestedFloor ? `Your enquiry: ${floors.find(f => f.id === interestedFloor)?.name ?? interestedFloor}` : "Share a few details with the project team."}</p>
+        </div>
         <form
           onSubmit={handleSubmit(submit)}
           noValidate

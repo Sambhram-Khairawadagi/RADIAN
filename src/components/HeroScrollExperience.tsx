@@ -24,24 +24,25 @@ export function HeroScrollExperience() {
         <span>COMMERCIAL / IT PARK</span>
         <span>BOMMASANDRA, BENGALURU</span>
       </div>
+      <div className="hero-title-row">
+        <h1 id="hero-title" className="metal-wordmark" aria-label="RADIAN">
+          <span className="wordmark-depth" aria-hidden="true">RADIAN</span>
+          <span className="wordmark-face" aria-hidden="true">RADIAN</span>
+        </h1>
+        <p className="hero-signature">BY V VENTUREZ<span>A new perspective<br />on commercial space.</span></p>
+      </div>
       <div className="hero-layout">
         <div className="hero-copy">
-          <p className="eyebrow">RADIAN BY V VENTUREZ</p>
           <div className="rera-badge">RERA REGISTERED</div>
-          <h1 id="hero-title">
-            A Landmark
-            <br />
-            for the
-            <br />
-            <em>Extraordinary.</em>
-          </h1>
+          <h2 className="hero-investment-title">Invest <span>₹3 crore.</span></h2>
           <p className="hero-description">
-            Invest ₹3 crore. Rental potential up to ₹2.4 lakh per month.
+            Rental potential up to <strong>₹2.4 lakh<span>/month</span></strong>
           </p>
           <p className="hero-investment-note">Indicative, owner-provided projection. Subject to leasing and final terms; returns are not guaranteed.</p>
-          <a className="button button-light" href="#explore">
-            Explore the building <ArrowDown size={16} />
-          </a>
+          <div className="hero-actions">
+            <a className="button button-light" href="#contact">Explore your investment <ArrowDown size={16} /></a>
+            <a className="text-link" href="#explore">Explore the building ↗</a>
+          </div>
         </div>
         <div
           className="hero-media"
@@ -62,7 +63,7 @@ export function HeroScrollExperience() {
             <FrameSequenceCanvas container={ref} onReady={markReady} />
           )}
           <span className="hero-image-caption">
-            AN ARCHITECTURAL PERSPECTIVE
+            <span>THE ARCHITECTURE / IN MOTION</span><span>Scroll to unfold ↓</span>
           </span>
         </div>
       </div>

@@ -39,6 +39,7 @@ export function BuildingExplorer() {
       </div>
       <div className="explorer-grid">
         <figure className="explorer-visual">
+          <div className="explorer-image-label"><span>BUILDING EXPLORER</span><strong>{floor.name}</strong><span>Selected level · schematic reference</span></div>
           <Media
             name="unfolded"
             className="contain"

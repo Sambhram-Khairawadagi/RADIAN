@@ -95,7 +95,7 @@ export function FrameSequenceCanvas({
                 canvas.height = height;
               }
               lastIndex = index;
-              ctx.fillStyle = "#111820";
+              ctx.fillStyle = "#101214";
               ctx.fillRect(0, 0, canvas.width, canvas.height);
               const scale = Math.min(
                 canvas.width / image.width,

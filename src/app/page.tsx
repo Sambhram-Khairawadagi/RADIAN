@@ -11,6 +11,7 @@ import { DeveloperSection } from "@/components/DeveloperSection";
 import { EnquiryForm } from "@/components/EnquiryForm";
 import { Footer } from "@/components/Footer";
 import { Reveal } from "@/components/Reveal";
+import { MobileEnquiry } from "@/components/MobileEnquiry";
 import { project } from "@/config/project";
 export default function Home() {
   const configured = !!(
@@ -52,6 +53,7 @@ export default function Home() {
         <EnquiryForm configured={configured} />
       </main>
       <Footer />
+      <MobileEnquiry />
       <Reveal />
       <script
         type="application/ld+json"

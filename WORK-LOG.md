@@ -72,3 +72,14 @@ See `docs/DEPLOYMENT.md` and `docs/PRODUCTION-READINESS.md` for the deployment c
 - Added the user-approved hero message: Invest ₹3 crore. Rental potential up to ₹2.4 lakh per month. The user explicitly confirmed the monthly period. The adjoining note identifies it as an indicative owner-provided projection, subject to leasing and final terms, without guaranteed returns.
 - Checked every section at phone/tablet sizes and added five touch-emulation regression cases (320×568, 375×667, 430×932, 768×1024 and 1024×768) for forward/reverse frames, visible playback, pin spacing, overflow and runtime errors.
 - Preserved 28 units, 1,12,918 sq ft built-up area, Property Basket credit and established visual identity.
+
+## Complete architectural redesign — 9 October 2026
+
+- Implemented the user's approved graphite/porcelain/champagne direction across the complete website, with emerald RERA accents and Space Grotesk/Manrope typography.
+- Added a lightweight metallic, shallow-extrusion RADIAN text wordmark with restrained desktop scroll perspective and a static mobile/reduced-motion treatment.
+- Reworked hero hierarchy and primary enquiry action, floating glass navigation, project facts, architectural story, integrated floor explorer, specifications, swipe/keyboard interior gallery, amenities, location, developer, form and footer styling.
+- Added selected-floor context to the enquiry form and a mobile enquiry control that hides around the hero, form, footer and open navigation.
+- Fixed narrow-screen grid sizing and heading overflow introduced by the stronger typography; refined the hero for laptop-height screens and resized the mobile animation stage.
+- Retained 28 units, 1,12,918 sq ft, user-approved investment/rental figures, RERA disclosures and Property Basket branding.
+- Final verification: 36 browser tests passed (51.1 seconds), TypeScript production compilation/build and lint passed, 55 section checks clear, and production smoke checks passed on desktop, phone and landscape.
+- See `docs/DESIGN-SYSTEM.md` and the refreshed screenshots and reports for implementation and testing details.

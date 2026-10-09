@@ -13,7 +13,8 @@ for (const mobile of [false, true]) {
   });
   await page.goto(process.env.HERO_URL || 'http://127.0.0.1:3000');
   await expect(page.locator('canvas')).toHaveAttribute('data-frame', '0');
-  const metrics = await page.evaluate(async ({ count, distance }) => {
+  const offset = mobile ? await page.locator('.hero-media').evaluate(el => el.getBoundingClientRect().top + scrollY - 82) : 0;
+  const metrics = await page.evaluate(async ({ count, distance, offset }) => {
     const samples = []; const canvas = document.querySelector('canvas');
     const points = [0, .75, .15, .9, 0];
     for(let phase=0; phase<4; phase++) {
@@ -22,7 +23,7 @@ for (const mobile of [false, true]) {
         function step(now) {
           const t = Math.min(1, (now-start)/2000);
           const progress = points[phase] + (points[phase+1]-points[phase])*t;
-          scrollTo({ top: progress*distance, behavior:'instant' });
+          scrollTo({ top: offset+progress*distance, behavior:'instant' });
           samples.push({ phase, time:now, raf:now-previous, target: Math.round(progress*(count-1)), frame:Number(canvas.dataset.frame), cache:Number(canvas.dataset.cacheSize) });
           previous=now;
           if(t<1) requestAnimationFrame(step); else resolve();
@@ -32,7 +33,7 @@ for (const mobile of [false, true]) {
     }
     await new Promise(resolve=>setTimeout(resolve,500));
     return { samples, finalFrame:Number(canvas.dataset.frame), canvasPixels:canvas.width*canvas.height };
-  }, { count:mobile?90:180, distance:mobile?844*2.2:960*4 });
+  }, { count:mobile?90:180, distance:mobile?844*2.2:960*4, offset });
   const s=metrics.samples; const percentile=(values,p)=>values.sort((a,b)=>a-b)[Math.floor((values.length-1)*p)];
   let regressions=0, hold=0, longestHold=0;
   s.forEach((v,i)=>{if(!i)return;const prev=s[i-1]; if(v.phase!==prev.phase)return;
