@@ -1,0 +1,13 @@
+{
+  "aerial": {"path":"building/building-aerial.png","alt":"Illustrative isometric view of the Radian commercial campus at dusk"},
+  "front": {"path":"building/building-front.png","alt":"Artist's impression of Radian's illuminated glass facade at sunset"},
+  "unfolded": {"path":"building/building-unfolded.png","alt":"Illustrative exploded view of Radian's office levels"},
+  "angle": {"path":"building/building-side-angle.png","alt":"Artist's impression of Radian viewed from a three-quarter angle"},
+  "lobby": {"path":"interiors/entrance-lobby.png","alt":"Artist's impression of a Radian entrance lobby with refined stone finishes"},
+  "office": {"path":"interiors/open-office.png","alt":"Artist's impression of an open office interior with city views"},
+  "conference": {"path":"interiors/conference-room.png","alt":"Artist's impression of a conference room in warm evening light"},
+  "developerLogo": {"path":"branding/v-venturez-logo.png","alt":"V Venturez — Commercial and Residential"},
+  "partnerLogo": {"path":"branding/property-basket-logo.png","alt":"Property Basket"},
+  "plan01": {"path":"floor-plans/floor-plan-01.png","alt":"Project floor plan, floor assignment pending"},
+  "plan02": {"path":"floor-plans/floor-plan-02.png","alt":"Project floor plan, floor assignment pending"}
+}

@@ -1,0 +1,37 @@
+{
+  "base": "http://127.0.0.1:3001",
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "errors": [],
+      "failed": [],
+      "overflow": false,
+      "navigation": "passed"
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "errors": [],
+      "failed": [],
+      "overflow": false,
+      "navigation": "passed"
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "errors": [],
+      "failed": [],
+      "overflow": false,
+      "navigation": "passed"
+    }
+  ],
+  "mediaFilesChecked": 551,
+  "missing": []
+}

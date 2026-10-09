@@ -1,0 +1,58 @@
+{
+  "aerial": {
+    "src": "/media/images/aerial-ed85547e22.webp",
+    "alt": "Illustrative isometric view of the Radian commercial campus at dusk",
+    "width": 1800,
+    "height": 860
+  },
+  "front": {
+    "src": "/media/images/front-bf3d523648.webp",
+    "alt": "Artist's impression of Radian's illuminated glass facade at sunset",
+    "width": 1672,
+    "height": 941
+  },
+  "unfolded": {
+    "src": "/media/images/unfolded-e0a2802fd6.webp",
+    "alt": "Illustrative exploded view of Radian's office levels",
+    "width": 1672,
+    "height": 941
+  },
+  "angle": {
+    "src": "/media/images/angle-cee968f4eb.webp",
+    "alt": "Artist's impression of Radian viewed from a three-quarter angle",
+    "width": 1672,
+    "height": 941
+  },
+  "lobby": {
+    "src": "/media/images/lobby-64583a0a1e.webp",
+    "alt": "Artist's impression of a Radian entrance lobby with refined stone finishes",
+    "width": 1672,
+    "height": 941
+  },
+  "office": {
+    "src": "/media/images/office-a55ecbeb17.webp",
+    "alt": "Artist's impression of an open office interior with city views",
+    "width": 1672,
+    "height": 941
+  },
+  "conference": {
+    "src": "/media/images/conference-f00af9d57c.webp",
+    "alt": "Artist's impression of a conference room in warm evening light",
+    "width": 1672,
+    "height": 941
+  },
+  "developerLogo": {
+    "src": "/media/images/developerLogo-4b13704376.webp",
+    "alt": "V Venturez — Commercial and Residential",
+    "width": 600,
+    "height": 300
+  },
+  "partnerLogo": {
+    "src": "/media/images/partnerLogo-3adf0326fc.webp",
+    "alt": "Property Basket",
+    "width": 600,
+    "height": 240
+  },
+  "plan01": null,
+  "plan02": null
+}

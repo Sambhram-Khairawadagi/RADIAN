@@ -1,0 +1,18 @@
+{
+  "available": true,
+  "duration": 10.01,
+  "desktop": {
+    "base": "/media/sequence/3d5c60fc79/desktop",
+    "count": 180,
+    "width": 1440,
+    "bytes": 22833768
+  },
+  "mobile": {
+    "base": "/media/sequence/3d5c60fc79/mobile",
+    "count": 90,
+    "width": 640,
+    "bytes": 2802590
+  },
+  "poster": "/media/sequence/3d5c60fc79/desktop/frame-0000.webp",
+  "previewVideo": "/media/sequence/3d5c60fc79/preview.mp4"
+}

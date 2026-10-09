@@ -1,0 +1,29 @@
+{
+  "note": "Single local production-build samples, not Lighthouse scores, field Core Web Vitals or physical-device measurements. Initial viewport only. Browser cache cold per profile; local server/image cache may be warm.",
+  "measurements": [
+    {
+      "profile": "Desktop, local production server, no throttling",
+      "lcp": 576,
+      "cls": 0,
+      "fcp": 272,
+      "documentMs": 59.099999997764826,
+      "resourceBytes": 1178410,
+      "resources": 25,
+      "sequenceFrame": "0",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "profile": "Phone viewport, 4x CPU slowdown, 1.6 Mbps / 150 ms simulated network",
+      "lcp": 1208,
+      "cls": 0,
+      "fcp": 1208,
+      "documentMs": 7.399999998509884,
+      "resourceBytes": 630519,
+      "resources": 23,
+      "sequenceFrame": "0",
+      "overflow": false,
+      "errors": []
+    }
+  ]
+}

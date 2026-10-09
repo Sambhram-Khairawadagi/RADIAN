@@ -1,0 +1,77 @@
+[
+  {
+    "key": "aerial",
+    "source": "building/building-aerial.png",
+    "status": "ready",
+    "sourceBytes": 3049947,
+    "webBytes": 345656
+  },
+  {
+    "key": "front",
+    "source": "building/building-front.png",
+    "status": "ready",
+    "sourceBytes": 3030066,
+    "webBytes": 446478
+  },
+  {
+    "key": "unfolded",
+    "source": "building/building-unfolded.png",
+    "status": "ready",
+    "sourceBytes": 2772569,
+    "webBytes": 362572
+  },
+  {
+    "key": "angle",
+    "source": "building/building-side-angle.png",
+    "status": "ready",
+    "sourceBytes": 2658879,
+    "webBytes": 324566
+  },
+  {
+    "key": "lobby",
+    "source": "interiors/entrance-lobby.png",
+    "status": "ready",
+    "sourceBytes": 2639477,
+    "webBytes": 280528
+  },
+  {
+    "key": "office",
+    "source": "interiors/open-office.png",
+    "status": "ready",
+    "sourceBytes": 2739586,
+    "webBytes": 324750
+  },
+  {
+    "key": "conference",
+    "source": "interiors/conference-room.png",
+    "status": "ready",
+    "sourceBytes": 2536085,
+    "webBytes": 262788
+  },
+  {
+    "key": "developerLogo",
+    "source": "branding/v-venturez-logo.png",
+    "status": "ready",
+    "sourceBytes": 582180,
+    "webBytes": 44676
+  },
+  {
+    "key": "partnerLogo",
+    "source": "branding/property-basket-logo.png",
+    "status": "ready",
+    "sourceBytes": 703123,
+    "webBytes": 41304
+  },
+  {
+    "key": "plan01",
+    "source": "floor-plans/floor-plan-01.png",
+    "status": "missing or invalid",
+    "reason": "Empty placeholder"
+  },
+  {
+    "key": "plan02",
+    "source": "floor-plans/floor-plan-02.png",
+    "status": "missing or invalid",
+    "reason": "Empty placeholder"
+  }
+]

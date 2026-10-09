@@ -1,0 +1,42 @@
+[
+  {
+    "File": "building\\building-aerial.png",
+    "Identical": true
+  },
+  {
+    "File": "building\\building-front.png",
+    "Identical": true
+  },
+  {
+    "File": "building\\building-unfolded.png",
+    "Identical": true
+  },
+  {
+    "File": "building\\building-side-angle.png",
+    "Identical": true
+  },
+  {
+    "File": "interiors\\entrance-lobby.png",
+    "Identical": true
+  },
+  {
+    "File": "interiors\\open-office.png",
+    "Identical": true
+  },
+  {
+    "File": "interiors\\conference-room.png",
+    "Identical": true
+  },
+  {
+    "File": "branding\\v-venturez-logo.png",
+    "Identical": true
+  },
+  {
+    "File": "branding\\property-basket-logo.png",
+    "Identical": true
+  },
+  {
+    "File": "animations\\radian-scroll.mp4",
+    "Identical": true
+  }
+]

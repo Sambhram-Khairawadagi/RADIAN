@@ -1,0 +1,452 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "errors": [],
+    "warnings": [
+      "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled",
+      "Image with src \"/media/images/front-bf3d523648.webp\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading",
+      "Image with src \"/media/images/lobby-64583a0a1e.webp\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"
+    ],
+    "failed": [],
+    "sections": [
+      {
+        "name": "hero",
+        "height": 900,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "introduction",
+        "height": 1438.125,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "architecture",
+        "height": 855,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "explorer",
+        "height": 1146.75,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "specifications",
+        "height": 948.375,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "interiors",
+        "height": 1930.859375,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "amenities",
+        "height": 874.75,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "location",
+        "height": 725.171875,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "developer",
+        "height": 566.3125,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "contact",
+        "height": 769.640625,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "footer",
+        "height": 428.28125,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      }
+    ],
+    "pageOverflow": false
+  },
+  {
+    "width": 768,
+    "height": 900,
+    "errors": [],
+    "warnings": [
+      "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled",
+      "Image with src \"/media/images/front-bf3d523648.webp\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading",
+      "Image with src \"/media/images/lobby-64583a0a1e.webp\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"
+    ],
+    "failed": [],
+    "sections": [
+      {
+        "name": "hero",
+        "height": 900,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "introduction",
+        "height": 1137.96875,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "architecture",
+        "height": 715.8125,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "explorer",
+        "height": 1041.6875,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "specifications",
+        "height": 981.25,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "interiors",
+        "height": 1409.6875,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "amenities",
+        "height": 1006.5,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "location",
+        "height": 663.859375,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "developer",
+        "height": 500.0625,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "contact",
+        "height": 786.28125,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "footer",
+        "height": 470.0625,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      }
+    ],
+    "pageOverflow": false
+  },
+  {
+    "width": 390,
+    "height": 900,
+    "errors": [],
+    "warnings": [
+      "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled",
+      "Image with src \"/media/images/angle-cee968f4eb.webp\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"
+    ],
+    "failed": [],
+    "sections": [
+      {
+        "name": "hero",
+        "height": 900,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "introduction",
+        "height": 1140.15625,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "architecture",
+        "height": 919.3125,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "explorer",
+        "height": 1299.84375,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "specifications",
+        "height": 1227.59375,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "interiors",
+        "height": 1699.265625,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "amenities",
+        "height": 1111.421875,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "location",
+        "height": 1085.078125,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "developer",
+        "height": 674.21875,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "contact",
+        "height": 1147.03125,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "footer",
+        "height": 675.734375,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      }
+    ],
+    "pageOverflow": false
+  },
+  {
+    "width": 360,
+    "height": 900,
+    "errors": [],
+    "warnings": [
+      "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+    ],
+    "failed": [],
+    "sections": [
+      {
+        "name": "hero",
+        "height": 900,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "introduction",
+        "height": 1117.09375,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "architecture",
+        "height": 923.3125,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "explorer",
+        "height": 1281.09375,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "specifications",
+        "height": 1267.34375,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "interiors",
+        "height": 1632.609375,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "amenities",
+        "height": 1134.8125,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "location",
+        "height": 1085.078125,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "developer",
+        "height": 674.21875,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "contact",
+        "height": 1362.53125,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "footer",
+        "height": 817.875,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      }
+    ],
+    "pageOverflow": false
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "errors": [],
+    "warnings": [
+      "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+    ],
+    "failed": [],
+    "sections": [
+      {
+        "name": "hero",
+        "height": 760,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "introduction",
+        "height": 1143.203125,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "architecture",
+        "height": 687.8125,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "explorer",
+        "height": 1041.6875,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "specifications",
+        "height": 962.5625,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "interiors",
+        "height": 1466.453125,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "amenities",
+        "height": 979.5,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "location",
+        "height": 663.859375,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "developer",
+        "height": 500.0625,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "contact",
+        "height": 764.03125,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      },
+      {
+        "name": "footer",
+        "height": 470.0625,
+        "overflow": false,
+        "badImages": [],
+        "escaped": []
+      }
+    ],
+    "pageOverflow": false
+  }
+]
